@@ -11,6 +11,11 @@ public class BookController {
         System.out.println("id==>"+id);
         return "List of one book";
     }
+    @DeleteMapping("/{id}")
+    public String deleteBook(@PathVariable Integer id) {
+        System.out.println("id==>"+id);
+        return "Deleted book";
+    }
     @GetMapping
     public String getAllBooks() {
         return "List of all books";
