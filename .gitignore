@@ -1,0 +1,33 @@
+# 默认忽略的文件
+#java template
+*.class
+#Mobile tools for java
+.mtj.tmp/
+#Package Files
+*.jar
+*.war
+*.ear
+*.zip
+
+hs_err_pid*
+
+.idea
+*.iml
+
+
+*.bak
+*.class
+*.rar
+*.log
+.project
+.settings
+.classpath
+target
+classes
+lib
+*.DS_Store
+.gradle
+build
+out
+log
+
