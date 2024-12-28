@@ -11,4 +11,8 @@ public class BookController {
         System.out.println("id==>"+id);
         return "List of one book";
     }
+    @GetMapping
+    public String getAllBooks() {
+        return "List of all books";
+    }
 }
